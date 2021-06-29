@@ -147,6 +147,8 @@ hgroup {
   box-sizing: border-box;
 }
 
+
+
 html,
 body {
   font-family: 'Raleway', sans-serif;
@@ -432,6 +434,21 @@ header
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
   transition: all .5s ease 0s;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
 }
 
 .header-area .main-nav {
